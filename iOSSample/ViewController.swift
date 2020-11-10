@@ -1,15 +1,16 @@
 //
 //  ViewController.swift
-//  BatchInsertAndUniqueConstraints
+//  iOSSample
 //
-//  Created by Bill on 10/6/20.
+//  Created by Bill on 11/10/20.
 //
 
-import Cocoa
+import UIKit
+import CoreData
 
-class ViewController: NSViewController {
+class ViewController: UIViewController {
     lazy var workContext: NSManagedObjectContext = {
-        guard let appDelegate = NSApp.delegate as? AppDelegate else {
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
             fatalError()
         }
 
@@ -20,14 +21,7 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
-    }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
     }
 
     @IBAction func handleInsertEvents(_ sender: Any) {

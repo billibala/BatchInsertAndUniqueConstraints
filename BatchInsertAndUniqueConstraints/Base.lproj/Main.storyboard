@@ -732,17 +732,6 @@
                                     <action selector="handleInsertSessions:" target="XfG-lQ-9wD" id="eXd-MW-JKk"/>
                                 </connections>
                             </button>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uTC-hv-J7k">
-                                <rect key="frame" x="29" y="117" width="94" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Truncate" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="0fM-x9-GcP">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="handleTruncate:" target="XfG-lQ-9wD" id="LCh-Fo-fzQ"/>
-                                </connections>
-                            </button>
                         </subviews>
                     </view>
                 </viewController>
