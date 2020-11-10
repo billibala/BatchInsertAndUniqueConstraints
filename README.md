@@ -6,12 +6,13 @@ When unique constraint is set to multiple attributes (compound key), batch inser
 
 You can refer to `EventSession` for unique constraint configuration with multiple attributes (`eventID` and `sessionID`)
 
+This is a [screen recording](https://drive.google.com/file/d/1yWBf3pxrpP5p0spfHyjbZSs7yEcyLCRO/view?usp=sharing) of the problem.
+
 ## How to use the sample code?
 
 * Run the app target
 * To batch insert "events", click "Event Batch Insert"
 * To batch insert "sessions", click "Session Batch Insert"
-* To clear database, click "Truncate"
 
 Test Result
 
